@@ -4,9 +4,11 @@
 	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href='https://fonts.googleapis.com/css?family=News+Cycle' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+
 
 	<title>Hangman Game!</title>
 
@@ -19,7 +21,7 @@
 
 	<header>
 		<img src="assets/images/mario.jpg" id="headerimage" alt="Mario Hangman">
-		<a id='psychic' href="index2.html">Click here for Psychic</a>
+		<a id='psychic' href="index2.html">--Click here for Psychic--</a>
 	</header>
 
 	<div class="container">
@@ -32,10 +34,10 @@
 			</div>
 			<div class="col-sm-6">
 				<h1 class="title">Press any key to start!</h1>
-				<h2 class="menus">Wins</h2>
-				<h2 class="menus">Current Word</h2>
-				<h2 class="menus">Number of Guesses Remaining</h2>
-				<h2 class="menus">Letters Already Guessed</h2>
+				<h2 class="menus" id="wins">Wins:</h2>
+				<h2 class="menus" id="currentWord">Current Word:</h2>
+				<h2 class="menus">Number of Guesses Remaining:</h2>
+				<h2 class="menus">Letters Already Guessed:</h2>
 			</div>
 			<div class="col-sm-1">
 			</div>
